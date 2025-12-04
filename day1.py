@@ -4,7 +4,7 @@ def get_inputs():
         inputs = f.readlines()
     return inputs
 
-def day1():
+def part1():
     inputs = get_inputs()
     current = 50
     num_at_0 = 0
@@ -19,7 +19,7 @@ def day1():
             num_at_0 += 1
     print(num_at_0)
 
-def day2():
+def part2():
     inputs = get_inputs()
     previous = 50
     current = 50
@@ -40,5 +40,5 @@ def day2():
     print(num_at_0)
 
 if __name__ == "__main__":
-    # day1()
-    day2()
+    # part1()
+    part2()
