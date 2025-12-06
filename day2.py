@@ -25,8 +25,6 @@ def generate_and_check_candidates(left: str, right: str):
             invalid_total += int(candidate)
     return invalid_total
 
-# 757-1242
-
 def generate_candidates_part2(left: str, right: str):
     candidates = set()
     left = int(left)
